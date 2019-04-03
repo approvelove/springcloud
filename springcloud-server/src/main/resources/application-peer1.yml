@@ -1,0 +1,14 @@
+server:
+  port: 8768
+
+---
+spring:
+  profiles: peer1
+
+---
+eureka:
+  instance:
+    hostname: 192.168.103.105 #本机
+  client:
+    service-url:
+      defaultZone: http://192.168.103.101:8767/eureka/

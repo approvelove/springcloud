@@ -1,12 +1,14 @@
 server:
-  port: 8764
+  port: 8767
 
 ---
 spring:
-  application:
-    name: service-ribbon
+  profiles: peer2
+
 ---
 eureka:
+  instance:
+    hostname: 192.168.103.101 #魏航烽的机子
   client:
     service-url:
       defaultZone: http://192.168.103.105:8768/eureka/

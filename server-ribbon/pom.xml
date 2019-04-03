@@ -6,7 +6,6 @@
 		<groupId>com.lj</groupId>
 		<artifactId>mysystem</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.lj</groupId>
 	<artifactId>service-ribbon</artifactId>
