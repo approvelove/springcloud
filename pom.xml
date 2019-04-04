@@ -22,6 +22,7 @@
 		<module>server-feign</module>
         <module>server-ribbon</module>
 		<module>service-zuul</module>
+		<module>service-gateway</module>
 	</modules>
 
 	<properties>
