@@ -1,0 +1,25 @@
+server:
+  port: 8770
+---
+spring:
+  application:
+    name: client-miya
+---
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    healthcheck:
+      enabled: true
+  instance:
+    lease-renewal-interval-in-seconds: 10 #续约更新时间为30秒
+    lease-expiration-duration-in-seconds: 30 #续约到期时间为90秒
+---
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"

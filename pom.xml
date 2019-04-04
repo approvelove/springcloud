@@ -18,6 +18,7 @@
 	<modules>
 		<module>springcloud-server</module>
 		<module>springcloud-client</module>
+		<module>client-miya</module>
 		<module>server-feign</module>
         <module>server-ribbon</module>
 		<module>service-zuul</module>
